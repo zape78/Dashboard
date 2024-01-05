@@ -71,6 +71,14 @@ export const mockDataTeam = [
       phone: "(444)555-6239",
       access: "admin",
     },
+    {
+      id: 10,
+      name: "Lou Diamond",
+      email: "ld5000@gmail.com",
+      age: 77,
+      phone: "(213)555-6119",
+      access: "user",
+    },
   ];
   export const mockDataContacts = [
     {
