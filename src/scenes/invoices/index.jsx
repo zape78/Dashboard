@@ -74,8 +74,9 @@ const Invoices = () => {
                     backgroundColor: colors.blueAccent[700]
                 },
                 "& .MuiCheckbox-root": {
-                    color: colors.greenAccent[200] 
-                },
+                    color: colors.greenAccent[200], 
+                    colorScheme: colors.greenAccent[500] //* need to adjust for LightMode *//
+                }
             }}
             >
                 <DataGrid
