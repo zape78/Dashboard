@@ -26,7 +26,12 @@ const userSchema = yup.object().shape({
     .matches(phoneRegExp, "Phone number is not valid")
     .required("required"),
     address1: yup.string().required("required"),
-    address2: yup.string().required("required")
+    address2: yup.string().required("required"),
+
+    // city: yup.string().required("required"),
+    // state: yup.string().required("required"),
+    // zip: yup.string().required("required")
+    
 })
 
 const Form = () => {
@@ -139,6 +144,53 @@ const Form = () => {
                                 helperText={touched.address2 && errors.address2} 
                                 sx={{ gridColumn: "span 4" }}
                             />
+
+                            {/* Figure out City State Zip Validation */}
+                            {/* <TextField
+                                fullWidth 
+                                variant="filled" 
+                                type="text" 
+                                label="City" 
+                                onBlur={handleBlur} 
+                                onChange={handleChange} 
+                                value={values.city}
+                                name="city" 
+                                error={!!touched.city && !!errors.city} 
+                                helperText={touched.city && errors.city} 
+                                sx={{ gridColumn: "span 2" }}
+                            />
+                            <TextField
+                                fullWidth 
+                                variant="filled" 
+                                type="text" 
+                                label="State" 
+                                onBlur={handleBlur} 
+                                onChange={handleChange} 
+                                value={values.state}
+                                name="state" 
+                                error={!!touched.state && !!errors.state} 
+                                helperText={touched.state && errors.state} 
+                                sx={{ gridColumn: "span 1" }}
+                            />
+                            <TextField
+                                fullWidth 
+                                variant="filled" 
+                                type="text" 
+                                label="Zip Code" 
+                                onBlur={handleBlur} 
+                                onChange={handleChange} 
+                                value={values.zip}
+                                name="zip" 
+                                error={!!touched.zip && !!errors.zip} 
+                                helperText={touched.zip && errors.zip} 
+                                sx={{ gridColumn: "span 1" }}
+                            /> */}
+                            {/* Figure out City State Zip Validation */}
+                        </Box>
+                        <Box display="flex" justifyContent="end" mt="20px">
+                            <Button type="submit" color="secondary" variant="contained">
+                                Create New User
+                            </Button>
                         </Box>
                     </form>
                 )}
