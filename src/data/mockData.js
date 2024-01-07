@@ -427,3 +427,36 @@ export const mockDataTeam = [
         "donutColor": "hsl(61, 70%, 50%)"
       },
     ];
+
+    export const mockPieData = [
+      {
+        "id": "java",
+        "label": "java",
+        "value": 94,
+        "color": "hsl(343, 70%, 50%)"
+      },
+      {
+        "id": "erlang",
+        "label": "erlang",
+        "value": 143,
+        "color": "hsl(336, 70%, 50%)"
+      },
+      {
+        "id": "ruby",
+        "label": "ruby",
+        "value": 111,
+        "color": "hsl(131, 70%, 50%)"
+      },
+      {
+        "id": "stylus",
+        "label": "stylus",
+        "value": 219,
+        "color": "hsl(232, 70%, 50%)"
+      },
+      {
+        "id": "hack",
+        "label": "hack",
+        "value": 57,
+        "color": "hsl(154, 70%, 50%)"
+      }
+    ]
