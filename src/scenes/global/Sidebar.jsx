@@ -43,7 +43,7 @@ const Sidebar = () => {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: "${colors.primary[400]} !important", //*!important tag used to override CSS library *//
+          background: `${colors.primary[400]} !important`, //*!important tag used to override CSS library *//
           backgroundColor: "transparent !important",
         },
         "& .pro-icon-wrapper": {
