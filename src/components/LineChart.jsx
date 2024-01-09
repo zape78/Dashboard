@@ -71,7 +71,7 @@ const LineChart = ({ isDashboard = false }) => {
             lineWidth={4}
             enablePoints={false}
             pointSize={10}
-            pointColor={{ theme: 'background' }}
+            pointColor={{ theme: 'background' }} 
             pointBorderWidth={2}
             pointBorderColor={{ from: 'serieColor' }}
             pointLabelYOffset={-12}
@@ -90,12 +90,13 @@ const LineChart = ({ isDashboard = false }) => {
                     itemOpacity: 0.75,
                     symbolSize: 12,
                     symbolShape: 'circle',
-                    symbolBorderColor: 'rgba(0, 0, 0, .5)',
+                    symbolBorderColor: 'rgba(0, 0, 0, 0.3)',
+                    fill: `${colors.grey[800]}`, //* figure out color on darktheme axis right
                     effects: [
                         {
                             on: 'hover',
                             style: {
-                                itemBackground: 'rgba(0, 0, 0, .03)',
+                                fill: 'rgba(255 25 240 0.3)',
                                 itemOpacity: 1
                             }
                         }
