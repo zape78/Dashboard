@@ -9,7 +9,7 @@ import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import LineChart from "../../components/LineChart";
 import BarChart from "../../components/BarChart";
-import PieChart from "../../components/PieChart";
+// import PieChart from "../../components/PieChart"; // * 3rd row used ProgressCircle
 import GeogrphyChart from "../../components/GeographyChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
